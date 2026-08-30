@@ -1,12 +1,3 @@
-export type RecoveryStatus = "pending" | "in_progress" | "completed" | "failed";
-
-export const STATUS_LABELS: Record<string, string> = {
-  pending: "Pending",
-  in_progress: "In Progress",
-  completed: "Completed",
-  failed: "Unrecoverable",
-};
-
 const ALPHABET = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
 
 export function generateTrackingCode(): string {
